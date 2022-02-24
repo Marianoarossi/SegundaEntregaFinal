@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img src="./img/cocina.png" alt="" width="64" height="64"> Mis
+                    Recetas</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Recetas
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./pages/recetas.html">Carnes</a></li>
+                                <li><a class="dropdown-item" href="./pages/recetas.html">Pastas</a></li>
+                                <li><a class="dropdown-item" href="./pages/recetas.html">Pizzas</a></li>
+                                <li><a class="dropdown-item" href="./pages/recetas.html">Pasteleria</a></li>
+                                <li><a class="dropdown-item" href="./pages/recetas.html">Saludables</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contactos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+
+        <div class="grid mt-4">
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+                data-bs-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/c-1.jpg" class="img-fluid" alt="foto1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/s-1.jpg" class="img-fluid" alt="foto2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img//s-3.jpg" class="img-fluid" alt="foto3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
+                <div class="col">
+                    <a class="nav__links" href="pages/recetas.html">
+                        <img class="menureceta__img" src="./img/menuCarnes.jpg" alt="Menu Carne">
+                    </a>
+                </div>
+               
+                <div class="col">
+                    <a class="nav__links" href="pages/recetas.html">
+                        <img class="menureceta__img" src="./img/menuPizzas.jpg" alt="Menu Pizzas">
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="nav__links" href="pages/recetas.html">
+                        <img class="menureceta__img" src="./img/menuPastas.jpg" alt="Menu Pastas">
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="nav__links" href="pages/recetas.html">
+                        <img class="menureceta__img" src="./img/menuPasteleria.jpg" alt="Menu Pasteleria">
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="nav__links" href="pages/recetas.html">
+                        <img class="menureceta__img" src="./img/menuSaludable.jpg" alt="Menu Saludables">
+                    </a>
+                </div>
+               
+            </div>
+        </div>
+
+
+
+        <div>
+            <h1 class="titulo">Recetas para el Invierno </h1>
+        </div>
+
+    </main>
+    <br>
+    <br>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
