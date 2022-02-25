@@ -43,7 +43,7 @@
 /* Fin de menú index */
 .titulo {
     font-family: themillon;
-    color: coral;
+    color: #ff7f50;
     text-align: center;
     font-size: 60px;
     margin-top: 2%;
@@ -54,7 +54,13 @@ hr {
     margin-right: 25%;
     color: black;
 }
-
+.titulo_p{
+    color: #ca785a;
+    font-size: large;
+}
+.email{
+    margin-bottom: 5px;
+}
 h4 {
     margin-top: 2%;
     margin-bottom: 2rem;
@@ -79,23 +85,76 @@ h4 {
     color: #ca785a;
 }
 
-#container{
-  
-    background-image:url(../img/newsletter.png) ;
-	box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
-	text-align: center;
-	border-radius: 5px;
-	margin: 3em auto;	
-	height: 30vh;
-	width: 100%;
-	padding: 1em;
-	
-	
+#container {
+
+    background-image: url(../img/newsletter.png);
+    box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+    text-align: center;
+    border-radius: 5px;
+    margin: 3em auto;
+    height: 40vh;
+    width: 100%;
+    padding: 2em;
 }
 
-/* .footer {
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-} */
+/* Footer */
+.footer {
+    color: #726c6cc9;
+    width: 100%;
+    grid-area: footer;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1E1D1D;
+    height: 100%;
+
+
+}
+.footer__Contenedor {
+    display: flex;
+    height: 15vh;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.footer__bannerLogo {
+    width: 200px;
+    margin-top: 2vh;
+}
+
+.footer__lista {
+    margin-top: 2vh;
+    list-style: none;
+    text-align: center;
+}
+
+.footer__listaRedes {
+    list-style: none;
+    display: flex;
+   
+}
+
+.footer__itemsL {
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer__logoRedes {
+    width: 32px;
+    height: 32px;
+    align-items: stretch;
+    margin-top: 2vh;
+}
+
+.footer__Webs {
+    margin-top: 2vh;
+
+}
+
+.ListaRED {
+    list-style: none;
+}
+
+/* Fin Footer */
