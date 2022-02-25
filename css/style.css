@@ -6,22 +6,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;700&family=Mulish:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Aguafina+Script|Artifika|Athiti|Condiment|Dosis|Droid+Serif|Farsan|Gurajada|Josefin+Sans|Lato|Lora|Merriweather|Noto+Serif|Open+Sans+Condensed:300|Playfair+Display|Rasa|Sahitya|Share+Tech|Text+Me+One|Titillium+Web');
 
 @font-face {
     font-family: themillon;
     src: url(../fonts/AveBetwan.ttf);
 }
 
-.grid{
+.grid {
     display: flex;
     align-items: center;
-    justify-content:  center;
+    justify-content: center;
     margin-bottom: 2vh;
 }
 
+
 /*Menú de pagina Index  */
 
-.menureceta__img{
+.menureceta__img {
     width: 15vh;
     height: 15vh;
     margin-top: 2%;
@@ -31,13 +33,13 @@
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 4px 6px 16px 3px rgba(82, 64, 64, 0.45);
-   
 }
 
 .menureceta__img:hover {
     transform: scale(1.2);
     transition: all 0.5s ease-in-out;
 }
+
 /* Fin de menú index */
 .titulo {
     font-family: themillon;
@@ -47,31 +49,54 @@
     margin-top: 2%;
 }
 
-
-
 hr {
     margin-left: 25%;
-    margin-right: 25%; ;
+    margin-right: 25%;
+    ;
     color: black;
-    
+}
 
-  }
-  
-  .card{
-      justify-content: center;
-      align-items: center;
-      margin-top: 5%;
-  }
-  .div__linkVideo{
-    width:75% ;
-    height:50vh ;
+h4 {
+    margin-top: 2%;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+    color: #ca785a;
+    font-size: larger;
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.div__linkVideo {
+    width: 75%;
+    height: 50vh;
     align-items: center;
 }
 
+.div__listaIngredientes {
+    color: #ca785a;
+}
 
-.footer{
-    display: flex!important;
+#container{
+  
+    background-image:url(../img/newsletter.png) ;
+	box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+	text-align: center;
+	border-radius: 5px;
+	margin: 3em auto;	
+	height: 25vh;
+	width: 100%;
+	padding: 1em;
+	
+	
+}
+
+/* .footer {
+    display: flex !important;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-}
+} */
