@@ -19,7 +19,7 @@
     margin-bottom: 2vh;
 }
 
-
+/*Menú de pagina Index  */
 
 .menureceta__img{
     width: 15vh;
@@ -38,7 +38,7 @@
     transform: scale(1.2);
     transition: all 0.5s ease-in-out;
 }
-
+/* Fin de menú index */
 .titulo {
     font-family: themillon;
     color: coral;
@@ -48,6 +48,25 @@
 }
 
 
+
+hr {
+    margin-left: 25%;
+    margin-right: 25%; ;
+    color: black;
+    
+
+  }
+  
+  .card{
+      justify-content: center;
+      align-items: center;
+      margin-top: 5%;
+  }
+  .div__linkVideo{
+    width:75% ;
+    height:50vh ;
+    align-items: center;
+}
 
 
 .footer{
