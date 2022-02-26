@@ -75,6 +75,14 @@ h4 {
     color: #ca785a;
     font-size: larger;
 }
+.h4--modificador{
+    margin-top: 3vh;
+    margin-left: 4vh;
+    margin-bottom: 4vh;
+    text-align: left;
+    text-decoration: none;
+   
+}
 
 .card {
     justify-content: center;
@@ -104,6 +112,12 @@ h4 {
     padding: 2em;
 }
 
+
+/* Pagina Receta */
+.sinEstilo{
+    list-style: none;
+    text-decoration: underline;
+}
 /* Footer */
 .footer {
     color: #726c6cc9;
