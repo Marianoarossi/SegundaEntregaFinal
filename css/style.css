@@ -144,6 +144,21 @@ h4 {
         transform: rotateY(360deg);
         }
 }
+/* fin pag galeria */
+
+/* Pag nosotros */
+.main__fondoNosotros {
+    background-image: url(../img/FondoNosotros1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main_textoNosotros {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10px;
+}
 
 /* Footer */
 .footer {
@@ -154,8 +169,6 @@ h4 {
     justify-content: space-evenly;
     background-color: #1E1D1D;
     height: 100%;
-
-
 }
 .footer__Contenedor {
     display: flex;
@@ -164,19 +177,15 @@ h4 {
     flex-direction: row;
     justify-content: space-evenly;
 }
-
-
 .footer__bannerLogo {
     width: 200px;
     margin-top: 2vh;
 }
-
 .footer__lista {
     margin-top: 2vh;
     list-style: none;
     text-align: center;
 }
-
 .footer__listaRedes {
     list-style: none;
     display: flex;   
@@ -187,19 +196,15 @@ h4 {
     margin-left: 20px;
     margin-right: 20px;
 }
-
 .footer__logoRedes {
     width: 32px;
     height: 32px;
     align-items: stretch;
     margin-top: 2vh;
 }
-
 .footer__Webs {
     margin-top: 2vh;
-
 }
-
 .ListaRED {
     list-style: none;
 }
@@ -227,13 +232,11 @@ h4 {
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
     transform: translateY(-7px);
     }
-    
-
-
-
 /* Fin Footer */
+
+
 /* Inicio de query pantallas de 800px a 1400px */
-@media (min-width: 360px) and (max-width: 784px) {
+@media (min-width: 800px) and (max-width:  1400px) {
 
          
 }
@@ -263,5 +266,9 @@ h4 {
         bottom: 10px;
         right: 10px;
         }
+
+     .main_textoNosotros{
+        font-size:x-small;
+     }  
 }
 
