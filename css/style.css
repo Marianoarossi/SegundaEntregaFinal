@@ -124,13 +124,14 @@ h4 {
 
 .animacionLogo:hover {
     animation-duration: 5s;
-    animation-name: animcard;
-    animation-iteration-count:initial;
-    transition: 1.5s;    
+    animation-name: animLogo;
+    animation-iteration-count: infinite;
+    transition: 1.5s;
+    transform:rotate3d();
     border-radius: 70%;
 }
 
-@keyframes animcard{
+@keyframes animLogo{
     from {
         -webkit-transform: rotate(0deg);
         transform: rotateY(0deg);
