@@ -118,6 +118,32 @@ h4 {
     list-style: none;
     text-decoration: underline;
 }
+
+/* Pagina Galeria */
+
+
+.animacionLogo:hover {
+    animation-duration: 5s;
+    animation-name: animcard;
+    animation-iteration-count:initial;
+    transition: 1.5s;    
+    border-radius: 70%;
+}
+
+@keyframes animcard{
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotateY(0deg);
+    }
+    50%{
+        -webkit-transform: rotate(180deg);
+        transform: rotateY(180deg);
+    } to {
+        -webkit-transform: rotate(360deg);
+        transform: rotateY(360deg);
+        }
+}
+
 /* Footer */
 .footer {
     color: #726c6cc9;
