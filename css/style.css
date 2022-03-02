@@ -169,8 +169,8 @@ h4 {
 }
 
 .mapa__link {
-    width:600px;
-    height:450px;
+    width:45vh;
+    height:45vh;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -283,7 +283,7 @@ h4 {
 /* Fin Footer */
 
 
-/* Inicio de query pantallas de 800px a 1400px */
+/* Inicio de query pantallas de 1280px a 1400px */
 @media (min-width: 1280px) and (max-width:  1500px) {
 
     .btn-flotante {
@@ -299,7 +299,7 @@ h4 {
         #Enunciado{
             text-align: center;
         }
-       
+    }      
 
 /* Inicio de media Query Celular */
 @media (min-width: 360px) and (max-width: 784px) {
@@ -314,11 +314,11 @@ h4 {
         object-fit: cover;
         box-shadow: 4px 6px 16px 3px rgba(82, 64, 64, 0.45);
     }
-     #MenuBar{
-     display:none;
-     }   
-     #container {
-     height: 45vh;
+    #MenuBar{
+    display:none;
+    }   
+    #container {
+    height: 45vh;
     }
     .btn-flotante {
         font-size: 14px;
@@ -327,17 +327,9 @@ h4 {
         right: 10px;
         }
 
-     .main_textoNosotros{
+    .main_textoNosotros{
         font-size:x-small;
-     }  
+    }  
      /* pagina contactos */
-     .mapa__link {
-        width:40vh;
-        height:40vh;
-        text-align: center;
-        margin-top: 10px;
-        margin-bottom: 5px;
-            
-    }
 }
 
